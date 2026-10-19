@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL:(https://github.com/60secondbrocode-lang/results-summary-component)
+- Live Site URL:( https://60secondbrocode-lang.github.io/results-summary-component/)
 
 ## My process
 
