@@ -1,0 +1,180 @@
+*{
+    box-sizing : border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(221, 100%, 96%);
+    font-family: "Inter", sans-serif;
+}
+
+
+/* MAIN CARD WILL BE HERE  */
+
+.main-card{
+    width: 100%;
+    max-width: 650px;
+    background-color:  hsl(0, 0%, 100%);
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 20px;
+   
+}
+
+
+
+/* LEFT SIDE OF STYLING IS HERE  */
+
+.left-card{
+    text-align: center;
+    flex:  1;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%) );
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;   
+    border-radius: 20px;  
+}
+
+/* CYCLE STYLING  */
+
+.circle{
+    width: 160px;
+    height: 160px;
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+}
+
+.circle-top-number{
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: "Outfit" , sans-serif;
+}
+
+
+
+.circle-bottom-number, p , h3{
+    color: hsl(241, 100%, 89%);
+ 
+}
+
+p{
+   line-height: 1.5;
+   font-size: 18px;
+
+}
+
+h3, .circle{
+    margin-bottom: 20px; 
+}
+
+h2,h3{
+    font-weight: 500;
+}
+
+
+/* LEFT SIDE OF STYLING  */
+
+.right-card{
+    flex: 1;
+    text-align: center;
+    padding: 30px ;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.right-card h3{
+    align-self: flex-start;
+    color: hsl(224, 30%, 27%);
+    font-weight: 600;
+}
+
+.card-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 20px;
+    border-radius: 10px;
+    
+}
+
+
+.icon{
+    display: flex;
+    gap: 10px;
+    font-weight: 600;
+}
+
+
+
+.reaction{
+    background-color:  hsla(0, 100%, 67%, 0.068);
+   
+}
+
+
+.pink{
+     color: hsl(0, 100%, 67%);;
+}
+
+
+
+
+.memory{
+    background-color:  hsla(39, 100%, 56%, 0.055);
+}
+
+.yellow{
+    color: hsl(39, 100%, 56%);
+}
+
+
+.verbal{
+    background-color: hsla(166, 100%, 37%, 0.048);
+}
+
+.green{
+    color:hsl(166, 100%, 37%);
+}
+
+.visual{
+    background-color:  hsla(234, 85%, 45%, 0.062);
+    margin-bottom: 30px;
+    
+}
+
+.blue{
+    color: hsl(234, 85%, 45%);
+}
+
+span{
+    font-weight: 600;
+    color: hsl(224, 30%, 27%);
+}
+
+
+.continue-btn{
+    text-decoration: none;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    color: white;
+    padding: 15px 0;
+    border-radius: 40px;
+}
+
+.continue-btn:hover{
+      background: hsl(224, 30%, 27%);
+      color: white;
+      
+}
